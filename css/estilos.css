@@ -14,20 +14,39 @@ body
 h1{
 	color: #4e4e4e;	
 }
+h2{
+	color:#f7b600;
+}
+h3{
+	color:#565656;
+	background-color: #ccc;
+	padding: 5px
+}
 /*-----------------formatação do menu---------------------*/
 a{
 	text-decoration: none;	
 }
-a:link, a:visited{
+ a:link,  a:visited{
+	color: #f7b600;
+	
+}
+ a:hover{
+	text-decoration: underline;
+
+	
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
 	color: #fff;
 	padding: 8px 12px;
 }
 
-a:hover{
+#area-cabecalho a:hover{
 	color: #f7b600;
 	background-color: #fff;
+	text-decoration: none;
 	
 }
+
 /*--------------layout------------------------------------*/
 
 #area-cabecalho{
@@ -44,10 +63,7 @@ a:hover{
 	background-color: white;
 	width: 920px;
 	margin: 0 auto;
-}
-
-#area-postagens,#area-lateral{
-	background-color: orange;
+	
 
 }
 
@@ -68,6 +84,25 @@ a:hover{
 }
 .branco{
 	color: white;
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom:  1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.conteudo-lateral{
+	background-color: white;
+	padding: 10px;
+	margin-bottom:20px;
+}
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #ccc;
 }
 
 #rodape{
